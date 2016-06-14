@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAlpha1"
+    android:clickable="false">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView18"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/icon_line2" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:id="@+id/cus_name_ll">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="客户姓名"
+            android:id="@+id/textView29"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.25"
+            android:background="@color/colorAlpha1"
+            android:textColor="@color/colorfont"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/cus_name_tv"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.45"
+            android:background="@color/colorAlpha1"
+            android:textColor="@color/colorfont"
+            android:gravity="left|center" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="查看信息"
+            android:id="@+id/order_info_but"
+            android:textSize="14dp"
+            android:clickable="false"
+            android:layout_weight="0.3"
+            android:contextClickable="false"
+            android:gravity="center"
+            android:longClickable="true"
+            android:layout_marginRight="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:id="@+id/cus_addr_ll">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="客户地址"
+            android:id="@+id/textView31"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.25"
+            android:background="@color/colorAlpha1"
+            android:textColor="@color/colorfont"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/cus_addr_tv"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.65"
+            android:background="@color/colorAlpha1"
+            android:textColor="@color/colorfont"
+            android:gravity="left|center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:id="@+id/cus_tel_ll"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="客户电话"
+            android:id="@+id/textView30"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.25"
+            android:background="@color/colorAlpha1"
+            android:textColor="@color/colorfont"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/cus_tel_tv"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.45"
+            android:background="@color/colorAlpha1"
+            android:textColor="@color/colorfont"
+            android:gravity="left|center" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="联系客户"
+            android:id="@+id/cus_tel_but"
+            android:layout_gravity="center_vertical"
+            android:textSize="14dp"
+            android:clickable="false"
+            android:layout_weight="0.3"
+            android:contextClickable="false"
+            android:gravity="center"
+            android:layout_marginRight="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="预约时间"
+            android:id="@+id/textView119"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.25"
+            android:background="@color/colorAlpha1"
+            android:textColor="@color/colorfont"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/visit_time_tv"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.65"
+            android:background="@color/colorAlpha1"
+            android:textColor="@color/colorfont"
+            android:gravity="left|center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/linearLayout11"
+        android:weightSum="1" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="落单时间"
+            android:id="@+id/textView5"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:background="@color/colorAlpha1"
+            android:textColor="@color/colorfont"
+            android:gravity="center"
+            android:layout_weight="0.25" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/set_time_tv"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:background="@color/colorAlpha1"
+            android:textColor="@color/colorfont"
+            android:gravity="left|center"
+            android:layout_weight="0.65" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/worker_id_ll"
+        android:weightSum="1"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="指派工人"
+            android:id="@+id/textView42"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:background="@color/colorAlpha1"
+            android:textColor="@color/colorfont"
+            android:gravity="center"
+            android:layout_weight="0.25" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/worker_info_tv"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:background="@color/colorAlpha1"
+            android:textColor="@color/colorfont"
+            android:gravity="left|center"
+            android:layout_weight="0.65" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView32"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.25"
+            android:background="@color/colorAlpha1"
+            android:textColor="@color/colorfont"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/cur_count_tv"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.45"
+            android:background="@color/colorAlpha1"
+            android:textColor="@color/colorfont"
+            android:gravity="left|center" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="接单"
+            android:id="@+id/accepting_orders_but"
+            android:layout_gravity="center_vertical"
+            android:textSize="14dp"
+            android:clickable="false"
+            android:layout_weight="0.3"
+            android:contextClickable="false"
+            android:gravity="center"
+            android:layout_marginRight="5dp"
+            android:visibility="gone" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="确认完成"
+            android:id="@+id/end_order_but"
+            android:layout_gravity="center_vertical"
+            android:textSize="14dp"
+            android:clickable="false"
+            android:layout_weight="0.3"
+            android:contextClickable="false"
+            android:gravity="center"
+            android:layout_marginRight="5dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView19"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/icon_line2" />
+
+</LinearLayout>
