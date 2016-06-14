@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorfont">
+
+        <Button
+            style="@style/label_fout_base"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="订单信息"
+            android:id="@+id/button6"
+            android:layout_weight="1"
+            android:background="@color/colorAlpha1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3"
+        android:layout_gravity="center_horizontal"
+        android:fillViewport="true"
+        android:background="@color/colorDiSe">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/order_info_dialog_ll"></LinearLayout>
+    </ScrollView>
+</LinearLayout>

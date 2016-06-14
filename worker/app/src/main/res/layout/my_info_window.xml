@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDiSe">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/icon_back1"
+        android:id="@+id/relativeLayout2">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#28030303"
+            android:id="@+id/linearLayout7">
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/break_img_but"
+                android:background="@drawable/abc_ic_ab_back_mtrl_am_alpha"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView46"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp"
+                android:layout_below="@+id/linearLayout7"
+                android:layout_toRightOf="@+id/imageView22"
+                android:layout_toEndOf="@+id/imageView22"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:layout_marginRight="15dp"
+                android:text="@string/app_name" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/imageView22"
+            android:background="@drawable/icon_curtain1"
+            android:layout_below="@+id/linearLayout7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/imageView22"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/linearLayout10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/login_tv"
+                android:textColor="@color/colorfont"
+                android:textSize="25dp"
+                android:textColorHint="@color/colorfont"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView5"
+        android:background="@color/colorWhite"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAlpha1"
+            android:divider="@drawable/icon_line2"
+            android:showDividers="middle|end">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="当前版本号："
+                    android:id="@+id/textView41"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/colorfont"
+                    android:gravity="left|center"
+                    android:layout_weight="1"
+                    android:textSize="16dp"
+                    android:paddingLeft="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/about_us_app_version_tv"
+                    android:textColor="@color/colorfont"
+                    android:gravity="left|center"
+                    android:layout_weight="1"
+                    android:textSize="16dp"
+                    android:layout_gravity="center_vertical" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="公司邮箱："
+                    android:id="@+id/button2"
+                    android:background="@color/colorAlpha1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:gravity="left|center"
+                    android:textColor="@color/colorfont"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="联系客服1："
+                    android:id="@+id/button5"
+                    android:drawableRight="@drawable/icon_arrow3"
+                    android:drawablePadding="20dp"
+                    android:background="@color/colorAlpha1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:gravity="left|center"
+                    android:textColor="@color/colorfont"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="联系客服2："
+                    android:id="@+id/button8"
+                    android:drawableRight="@drawable/icon_arrow3"
+                    android:drawablePadding="20dp"
+                    android:background="@color/colorAlpha1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:gravity="left|center"
+                    android:textColor="@color/colorfont"
+                    android:textSize="16dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="退出当前账号"
+        android:background="@color/colorfont"
+        android:layout_below="@+id/textView102"
+        android:layout_alignRight="@+id/textView102"
+        android:layout_alignEnd="@+id/textView102"
+        android:layout_alignLeft="@+id/imageView16"
+        android:layout_alignStart="@+id/imageView16"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/out_login_but" />
+
+</LinearLayout>
