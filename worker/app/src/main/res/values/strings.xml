@@ -7,14 +7,13 @@
     <string name="public_no">取消</string>
     <string name="mama_tel">tel://02986266736</string>
 
-    <string name="app_name">沃纳助手·窗帘·工人端</string>
+    <string name="app_name">窗帘助手·工</string>
     <string name="master_home">主页</string>
     <string name="master_order">订单</string>
     <string name="master_life">生活</string>
     <string name="master_info">个人</string>
     <string name="feed_back_but">反馈</string>
     <string name="city_list_label">选择城市</string>
-    <string name="master_label">闪通在线</string>
     <string name="city_list">城市列表</string>
     <string name="city_switch_label_1">选择城市</string>
     <string name="life_label">生活</string>
